@@ -68,7 +68,7 @@ if($_POST){
             $_SESSION["usertype"]="p";
             $_SESSION["username"]=$fname;
 
-            header('Location: player/index.php');
+            header('Location: players/index.php');
             $error='<label for="promter" class="form-label" style="color:rgb(255, 62, 62);text-align:center;"></label>';
         }
         
